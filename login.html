@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login to Ajisha Fashions</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="login_form">
+        <div class="content__inside">
+            <div class="content_left">
+                <button class="button_1"><span class="logo"><i class="fab fa-facebook-f"></i></span><span class="but_line"></span>Facebook</button>
+                <button class="button_2"><span class="logo"><i class="fab fa-google-plus-g"></i></span><span class="but_line"></span>Google +</button>
+                <button class="button_3"> <span class="logo"><i class="fab fa-twitter"></i></span><span class="but_line"></span>Twitter</button>
+                <button class="button_4"><span class="logo"><i class="fab fa-instagram"></i></span><span class="but_line"></span>Instagram</button>
+            </div>
+            <div class="content_mid">
+                <div class="content_mid__OR">OR</div>
+                <div class="mid_line">,</div>
+            </div>
+            <div class="content_right">
+                <form>
+                    <h2>Sign in with</h2>
+                    <div class="credentials_form">
+                        <div class="credentials_form_name">
+                            <span class="username-icon"><i class="fas fa-user"></i></span>
+                            <label for="name" class="login_name"></label>
+                            <input type="text" name="Username" placeholder="Username or email" id="username" class="login_name" required style="font-size: 18px" /></div>
+                        <div class="credentials_form_pw">
+                            <span class="pw-icon"><i class="fas fa-lock"></i></span>
+                            <label for="pw" class="login_password"></label>
+                            <input type="password" name="password" placeholder="Password" id="password" class="login_password" required style="font-size: 18px" /></div>
+                        <div class="login_end">
+                            <div class="checkbox">
+                                <input type="checkbox" id="remember_box" name="remember_box" value="remember" />
+                                <label for="remember_box"> Remember me</label><br /></div>
+                            <div class="button_login__end">
+                                <button class="button_login login-button"><a href="index.html">LOGIN</a></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content__bottom">
+            <a href="#register" class="registerL">Register now</a>
+            <span class="bot_line"></span>
+            <a href="#forgotten" class="forgotL">Forgotten?</a>
+
+        </div>
+    </div>
+    </div>
+    <script scr="js/login.js"></script>
+</body>
+
+</html>
